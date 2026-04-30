@@ -5,3 +5,4 @@ edition = "2024"
 description = "Lisp Parser"
 
 [dependencies]
+nom = "8.0.0"
