@@ -1,7 +1,8 @@
-use std::error::Error;
 use katou::parser::parse_single_line_comments;
+use std::error::Error;
 
-fn main() -> Result<(), Box<dyn Error>> {
-    println!("Welcome to Katou - the Lisp Parser");
+pub fn read_expr(input: &str) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
+
+fn main() {}
